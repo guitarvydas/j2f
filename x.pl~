@@ -1,0 +1,2 @@
+:- use_module(library(http/json)).
+:- open("fb.json",read,Strm),json_read(Strm,Final).
